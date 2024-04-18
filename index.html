@@ -1,96 +1,47 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
-    <title>kanakana-chang</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>プロフィールページ</title>
   </head>
   <body>
-    <h1>kanakana-chang</h1>
-    
-    <h2>About</h2>
-    <p>
-      簡単な自己紹介やアピール。<br>
-      どんなことができる、したいのか。
-    </p>
-
-    <h3>Profile</h3>
-    <ul>
-      <li>名前: 小笠原可奈子</li>
-      <li>出身地: 神奈川県</li>
-      <!--<li></li>-->
-    </ul>
-
-    <h3>Skills</h3>
-    <table>
-      <tr>
-        <th>OS</th>
-        <td>Windows, Ubuntu など</td>
-      </tr>
-      <tr>
-        <th>Engine, Frameworks</th>
-        <td>Node.js, Express など</td>
-      </tr>
-      <tr>
-        <th>Tool, MiddleWare</th>
-        <td>Git, PostgreSQL など</td>
-      </tr>
-      <tr>
-        <th>資格・免許</th>
-        <td>情報処理技術者、LPIC など</td>
-      </tr>
-    </table>
-
-    <h3>Research</h3>
-    <p>主な研究内容</p>
-    
-    <h3>Works</h3>
-    <p>アピールできる活動内容を書きましょう。(別ページ参照)</p>
-    <ul>
-      <li><a href="https://github.com/kanakana-chang">GitHub</a></li>
-      <li><a href="https://qiita.com/">Qiita</a></li>
-      <!--<li><a href="https://zenn.dev/"></a></li>-->
-      <li>
-        作った作品
-        <ul>
-          <li><a href="https://example.com/">作品 1</a></li>
-          <li><a href="https://example.com/">作品 2</a></li>
-        </ul>
-      </li>
-    </ul>
-
-    <h3>Contact</h3>
-    <p>連絡先や SNS のアカウントを書きましょう。</p>
-    <ul>
-      <li><a href="mailto:name@example.com">Mail</a></li>
-      <li><a href="https://twitter.com/n_yobikou">X(旧 Twitter)</a></li>
-      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-    </ul>
-
-    <h3>History</h3>
-    <table>
-      <tr>
-        <th>2016 年</th>
-        <td>私立洗足学園高等学校入学</td>
-      </tr>
-      <tr>
-        <th>2019 年</th>
-        <td>私立洗足学園高等学校卒業</td>
-      </tr>
-      <tr>
-        <th>2019 年</th>
-        <td>明治大学総合数理学部先端メディアサイエンス学科入学</td>
-      </tr>
-      <tr>
-        <th>2023 年</th>
-        <td>明治大学総合数理学部先端メディアサイエンス学科卒業</td>
-      </tr>
-      <tr>
-        <th>2023 年</th>
-        <td>明治大学大学院先端数理科学研究科先端メディアサイエンス専攻入学</td>
-      </tr>
-    </table>
-    <h3>Account</h3>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span>Kanako</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Kanako</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="research.html">Research</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="starter-template"></div>
+    </div>
   </body>
 </html>
